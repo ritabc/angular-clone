@@ -4,6 +4,13 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 
+## User Stories for Friday 8/17/18
+  1. Upon landing on the page, a user should see three sections: Visual Display, Moves Type List, Moves Queue
+  1. Upon clicking a specific type of move in the Moves List, a user should see all the moves of that type
+  1. Each move in the Move Type list should have a (+) button, which will add it to the last position in the Queue
+  1. Any moves in the queue will have a (-) button, which will delete them from the queue
+  1. Within the queue, users will be able to move moves up or down
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
