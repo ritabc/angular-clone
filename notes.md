@@ -13,3 +13,9 @@
   - Page(s) to Route to: Choose from short list of Dance Database
     - Includes Visual Display
   - External Links
+
+## Components
+- app (hard coded moves)
+- visual display (animation)
+- moves in (queue)
+- moves list sorted by (types)
