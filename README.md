@@ -1,4 +1,6 @@
-# NgContraClone
+# Angular Practice - A Clone of Scott Percic's Contra Design Tool Website
+[Working Clone from scottpercic.com](http://scottpercic.com/contra.html)
+## Rita Bennett-Chew
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 
