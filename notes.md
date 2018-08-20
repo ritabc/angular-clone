@@ -19,3 +19,16 @@
 - visual display (animation)
 - moves in (queue)
 - moves list sorted by (types)
+
+## Moves not included (for now)
+- Roll away with half sashay
+- Swat the Flea
+- Contra Corners
+- Cross trail
+- Butterfly whirl
+- Pull by (should probably add in)
+- Slide (should probably add in for becket dances)
+- Ocean wave (different than short wavy line?)
+
+## Technical Contra Resources
+- cdss.org Appendices
