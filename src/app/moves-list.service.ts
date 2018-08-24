@@ -6,11 +6,15 @@ import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/databa
 export class MovesListService {
   moves: FirebaseListObservable<any[]>;
   constructor(private database: AngularFireDatabase) {
-    this.moves = database.list('listOfMoves');
+    this.moves = database.list('listOfMoves/');
   }
 
   getMoves() {
     return this.moves;
+  }
+
+  getMoveByID(albumId: string) {
+    return this.database.object('listOfMoves/' + albumId)
   }
 
 }

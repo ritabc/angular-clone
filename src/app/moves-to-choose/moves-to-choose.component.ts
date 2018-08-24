@@ -10,12 +10,24 @@ import { FirebaseListObservable } from 'angularfire2/database';
   providers: [MovesListService]
 })
 export class MovesToChooseComponent implements OnInit {
-  movesForList: FirebaseListObservable<any[]>;
+  movesForList; //FirebaseListObservable<any[]>;
+  moveCategories: string[] = [];
 
   constructor(private router: Router, private movesListService: MovesListService) { }
 
   ngOnInit() {
-    this.movesForList = this.movesListService.getMoves();
+    this.movesListService.getMoves().subscribe(dataLastEmittedFromObserver => {
+      this.movesForList = dataLastEmittedFromObserver;
+      return this.movesForList
+    });
+    this.movesForList.forEach(move => {
+      console.log(move)
+      if (!(this.moveCategories.includes(move.category))) {
+        this.moveCategories.push(move.category);
+      }
+    })
   }
+
+
 
 }

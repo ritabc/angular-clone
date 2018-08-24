@@ -2,7 +2,6 @@
 
 <div *ngFor="let move of movesForList | async" class="panel panel-default">
   <div class="panel-body">
-    <p><em>{{move.name}}</em> in the <i>{{move.category}}</i> category<p>
+    <p><em>{{move?.name}}</em> in the <i>{{move?.category}}</i> category. It's times around info is {{move?.timesAround}}<p>
   </div>
-
 </div>
