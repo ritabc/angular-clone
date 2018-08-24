@@ -9,6 +9,7 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { routing } from './app.routing';
 import { VisualizationComponent } from './visualization/visualization.component';
 import { CreateYourOwnComponent } from './create-your-own/create-your-own.component';
+import { DesignedDancesComponent } from './designed-dances/designed-dances.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -22,7 +23,8 @@ export const firebaseConfig = {
     AppComponent,
     WelcomeComponent,
     VisualizationComponent,
-    CreateYourOwnComponent
+    CreateYourOwnComponent,
+    DesignedDancesComponent
   ],
   imports: [
     BrowserModule,
