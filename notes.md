@@ -15,10 +15,24 @@
   - External Links
 
 ## Components
-- app (hard coded moves)
-- visual display (animation)
-- moves in (queue)
-- moves list sorted by (types)
+- welcome
+- visualization
+- Queue
+- moves list (sorted by types)
+- dance details
+
+## Routes
+- Home
+- Create your Own
+- Pre-Loaded dances
+- Resources Routes
+- Contact Me Page
+
+## Models
+- Move-List-Item
+- Bird/Dancer/Person
+- HandsFour
+- Set
 
 ## Moves not included (for now)
 - Roll away with half sashay
