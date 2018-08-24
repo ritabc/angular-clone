@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Move } from './models/move.model'
+import { MoveForList } from './models/move-for-list.model'
 
 @Component({
   selector: 'app-root',
@@ -7,4 +7,5 @@ import { Move } from './models/move.model'
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  title = "Rita's Contra Design Tool"
 }
