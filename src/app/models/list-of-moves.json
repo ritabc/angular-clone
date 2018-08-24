@@ -1,0 +1,187 @@
+{ "listOfMoves": [
+  {
+    "name": "Circle Left",
+    "category": "Circles",
+    "timesAround": ["Once", "3/4", "1/2"]
+  },
+  {
+    "name": "Circle Right",
+    "category": "Circles",
+    "timesAround": ["Once", "3/4", "1/2"]
+  },
+  {
+    "name": "Balance the Ring",
+    "category": "Ring Balances and Petronellas",
+    "timesAround": null
+  },
+  {
+    "name": "Move to the Right, as in Petronella",
+    "category": "Ring Balances and Petronellas",
+    "timesAround": null
+  },
+  {
+    "name": "Left Hand Star",
+    "category": "Stars",
+    "timesAround": ["Once", "3/4", "1/2"]
+  },
+  {
+    "name": "Right Hand Star",
+    "category": "Stars",
+    "timesAround": ["Once", "3/4", "1/2"]
+  },
+  {
+    "name": "Ravens Do-si-Do",
+    "category": "Do-si-Do's",
+    "timesAround": ["Once", "Once and a Half"]
+  },
+  {
+    "name": "Larks Do-si-Do",
+    "category": "Do-si-Do's",
+    "timesAround": ["Once", "Once and a Half"]
+  },
+  {
+    "name": "Do-si-Do on the Side of the Set",
+    "category": "Do-si-Do's",
+    "timesAround": ["Once", "Once and a Fourth", "Once and a Half"]
+  },
+  {
+    "name": "Ravens Right Shoulder Round",
+    "category": "Shoulder Rounds",
+    "timesAround": ["Once", "Once and a Half"]
+  },
+  {
+    "name": "Larks Right Shoulder Round",
+    "category": "Shoulder Rounds",
+    "timesAround": ["Once", "Once and a Half"]
+  },
+  {
+    "name": "Swing on the Side of the Set",
+    "category": "Swings",
+    "timesAround": null
+  },
+  {
+    "name": "Balance and Swing on the Side of the Set",
+    "category": "Swings",
+    "timesAround": null
+  },
+  {
+    "name": "Ravens Allemande Right",
+    "category": "Allemandes",
+    "timesAround": ["1/2", "3/4", "Once", "Once and a Fourth", "Once and a Half"]
+  },
+  {
+    "name": "Ravens Allemande Left",
+    "category": "Allemandes",
+    "timesAround": ["1/2", "3/4", "Once", "Once and a Fourth", "Once and a Half"]
+  },
+  {
+    "name": "Larks Allemande Right",
+    "category": "Allemandes",
+    "timesAround": ["1/2", "3/4", "Once", "Once and a Fourth", "Once and a Half"]
+  },
+  {
+    "name": "Larks Allemande Left",
+    "category": "Allemandes",
+    "timesAround": ["1/2", "3/4", "Once", "Once and a Fourth", "Once and a Half"]
+  },
+  {
+    "name": "Allemande Right on the Side of the Set",
+    "category": "Allemandes",
+    "timesAround": ["1/2", "3/4", "Once", "Once and a Fourth", "Once and a Half"]
+  },
+  {
+    "name": "Allemande Left on the Side of the Set",
+    "category": "Allemandes",
+    "timesAround": ["1/2", "3/4", "Once", "Once and a Fourth", "Once and a Half"]
+  },
+  {
+    "name": "Half Hey",
+    "category": "Heys",
+    "timesAround": null
+  },
+  {
+    "name": "Hey for Four",
+    "category": "Heys",
+    "timesAround": null
+  },
+  {
+    "name": "Long Lines, Forward and Back",
+    "category": "Lines",
+    "timesAround": null
+  },
+  {
+    "name": "Down the Hall, Turn Alone",
+    "category": "Lines",
+    "timesAround": null
+  },
+  {
+    "name": "Down the Hall, Turn as a Couple",
+    "category": "Lines",
+    "timesAround": null
+  },
+  {
+    "name": "Balance in Short Wavy Lines",
+    "category": "Lines",
+    "timesAround": null
+  },
+  {
+    "name": "Balance in Long Wavy Lines",
+    "category": "Lines",
+    "timesAround": null
+  },
+  {
+    "name": "Balance the Ocean Wave",
+    "category": "Lines",
+    "timesAround": null
+  },
+  {
+    "name": "Slide Left as in Rory Amore",
+    "category": "Lines",
+    "timesAround": null
+  },
+  {
+    "name": "Slide Right as in Rory Amore",
+    "category": "Lines",
+    "timesAround": null
+  },
+  {
+    "name": "Promenade Across",
+    "category": "Cross Overs,  Chains, and Twirls",
+    "timesAround": null
+  },
+  {
+    "name": "Right and Left Through",
+    "category": "Cross Overs,  Chains, and Twirls",
+    "timesAround": null
+  },
+  {
+    "name": "Pass Through",
+    "category": "Cross Overs,  Chains, and Twirls",
+    "timesAround": null
+  },
+  {
+    "name": "Ravens Chain",
+    "category": "Cross Overs,  Chains, and Twirls",
+    "timesAround": null
+  },
+  {
+    "name": "California Twirl",
+    "category": "Cross Overs,  Chains, and Twirls",
+    "timesAround": null
+  },
+  {
+    "name": "Box the Gnat",
+    "category": "Cross Overs,  Chains, and Twirls",
+    "timesAround": null
+  },
+  {
+    "name": "Mad Robin Ravens in Front",
+    "category": "Miscellaneous",
+    "timesAround": null
+  },
+  {
+    "name": "Mad Robin Larks in Front",
+    "category": "Miscellaneous",
+    "timesAround": null
+  },
+]
