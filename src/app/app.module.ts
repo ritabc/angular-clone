@@ -7,7 +7,8 @@ import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { AppComponent } from './app.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { routing } from './app.routing';
-import { CreateYourOwnComponent } from './create-your-own/create-your-own.component'
+import { VisualizationComponent } from './visualization/visualization.component';
+import { CreateYourOwnComponent } from './create-your-own/create-your-own.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -20,6 +21,7 @@ export const firebaseConfig = {
   declarations: [
     AppComponent,
     WelcomeComponent,
+    VisualizationComponent,
     CreateYourOwnComponent
   ],
   imports: [
