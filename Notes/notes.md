@@ -16,15 +16,17 @@
 
 ## Components
 - welcome
-- visualization
-- Queue
-- moves list (sorted by types)
-- dance details
+- visualization (a)
+- Queue (b)
+- moves-to-choose (sorted by types) (c)
+- dance details or cards
+- CreateYourOwn (a, b, c)
+- Preloaded Dances (a, b)
 
 ## Routes
 - Home
-- Create your Own
-- Pre-Loaded dances
+- Create your Own (a, b, c)
+- Pre-Loaded dances (a, b)
 - Resources Routes
 - Contact Me Page
 
