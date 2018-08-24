@@ -10,6 +10,7 @@ import { routing } from './app.routing';
 import { VisualizationComponent } from './visualization/visualization.component';
 import { CreateYourOwnComponent } from './create-your-own/create-your-own.component';
 import { DesignedDancesComponent } from './designed-dances/designed-dances.component';
+import { MovesToChooseComponent } from './moves-to-choose/moves-to-choose.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -24,7 +25,8 @@ export const firebaseConfig = {
     WelcomeComponent,
     VisualizationComponent,
     CreateYourOwnComponent,
-    DesignedDancesComponent
+    DesignedDancesComponent,
+    MovesToChooseComponent
   ],
   imports: [
     BrowserModule,
