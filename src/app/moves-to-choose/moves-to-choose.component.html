@@ -1,6 +1,6 @@
 <h3>Moves To Add</h3>
 
-<div *ngFor="let move of movesForList | async" class="panel panel-default">
+<div *ngFor="let move of movesForList" class="panel panel-default">
   <div class="panel-body">
     <p><em>{{move?.name}}</em> in the <i>{{move?.category}}</i> category. It's times around info is {{move?.timesAround}}<p>
   </div>

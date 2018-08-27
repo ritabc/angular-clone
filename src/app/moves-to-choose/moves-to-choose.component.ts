@@ -13,20 +13,21 @@ export class MovesToChooseComponent implements OnInit {
   movesForList; //FirebaseListObservable<any[]>;
   moveCategories: string[] = [];
 
-  constructor(private router: Router, private movesListService: MovesListService) { }
+  constructor(private router: Router, private movesListService: MovesListService) {
+  }
 
   ngOnInit() {
     this.movesListService.getMoves().subscribe(dataLastEmittedFromObserver => {
       this.movesForList = dataLastEmittedFromObserver;
-      return this.movesForList
     });
+    console.log(this.movesForList)
     this.movesForList.forEach(move => {
       console.log(move)
       if (!(this.moveCategories.includes(move.category))) {
         this.moveCategories.push(move.category);
       }
     })
-  }
+  };
 
 
 
